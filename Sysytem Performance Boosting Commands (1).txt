@@ -1,3 +1,4 @@
+# System-Performance-Boosting-Commands
 10 Steps For Boosting Your Sysytem Or Laptop
 
 Click Window Key On keyboard,search CMD,Before Opening Make Sure That Click Run As Adminstarator,Run All Commands In Command Propt(Cmd).
@@ -65,3 +66,6 @@ Explaining Full Steps Usages,If You Are Free Just Read It:-
 8) Additional Troubleshooting Tips Using Command Prompt: Command Prompt provides additional tools to optimize PC performance. Use the “tasklist” command to view running processes and “taskkill” to terminate unwanted processes. The “netsh” command can reset network configurations, while the “dism” command turns Windows features on or off.
 
 Thank You All,Please Share if theses commands Boost Up your system or laptop.
+
+Author-Lancer
+If your lag issue is fixed,please star and support me.
