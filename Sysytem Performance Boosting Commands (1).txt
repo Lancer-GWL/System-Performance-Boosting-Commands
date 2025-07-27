@@ -1,0 +1,67 @@
+10 Steps For Boosting Your Sysytem Or Laptop
+
+Click Window Key On keyboard,search CMD,Before Opening Make Sure That Click Run As Adminstarator,Run All Commands In Command Propt(Cmd).
+
+Step:1
+chkdsk /f 
+
+Usage-CHKDSK: A Life Saver for Disk Issues
+
+Step:2
+sfc /scannow
+
+Use-SFC /SCANNOW: Repairing System Files
+
+Step:3
+DISM /Online /Cleanup-Image /RestoreHealth
+
+Usage-repairs the Windows image and fixes any problems that might be causing your computer to slow down.
+
+Step:4
+netsh int ip reset
+
+Usage- If you’re experiencing slow internet speeds,This command resets your TCP/IP settings, often resolving connectivity issues.fix this slow internet connectivity issue on your computer. After a restart, your internet should be faster and more stable.
+
+Step:5
+powercfg /setactive scheme
+
+Usage-You can choose high-performance settings with the help of this command prompt to ensure your computer gives its best performance.
+
+Step:6
+TASKLIST & TASKKILL
+
+Usage-“TASKLIST” command shows you a list of running operations, and “TASKKILL” lets you remove those you don’t need,If you need unwanted background running software or process just stop using the command TASKKILL.
+
+Step:7
+msconfig
+
+Usage-Navigate to the “Startup” tab, and uncheck unnecessary programs,reduces the number of apps that automatically launch when you start your computer.one of the best command prompts that you can use to fix your slowed-down computer.
+
+Step:8
+ipconfig /flushdns
+
+Usage-Refreshing DNS Settings(enhance your internet experience by ensuring your computer fetches the latest DNS information.)
+
+Step:9
+gpupdate /force
+
+Usage-Ensures your computer pulls the latest group policy settings from the server, potentially resolving performance issues,initiate the update process and breathe new life into your PC.
+
+Step:10
+cleanmgr
+
+Usage- Launch the Disk Cleanup utility. This tool identifies and lets you remove unnecessary files, reclaiming valuable disk space and potentially boosting your computer’s speed.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Explaining Full Steps Usages,If You Are Free Just Read It:-
+
+1) Opening Command Prompt as an Administrator: To access advanced functionality, it’s important to launch Command Prompt with administrative privileges. Right-click on the Start menu and select “Command Prompt (Admin)” or “Windows PowerShell (Admin).”
+2) Running System File Checker (SFC) Scan: System File Checker is a built-in Windows utility that scans for corrupted system files and attempts to repair them. In Command Prompt, enter the command “sfc /scannow” and let the scan complete. The results will indicate any repaired or unresolved issues.
+3) Running the Deployment Image Servicing and Management (DISM) Tool: DISM is another powerful tool that can fix system corruption and component store problems. Enter the command “dism /online /cleanup-image /restorehealth” in Command Prompt. The tool will check for corrupted files and replace them if necessary.
+4) Clearing Temporary Files and Folders: Temporary files can accumulate over time and consume valuable disk space, potentially slowing down your PC. To clear them using Command Prompt, enter the command “del /q/f/s %TEMP%*.” This will delete all temporary files and folders.
+5) Disabling Unnecessary Startup Programs and Services: Many applications and services launch automatically during startup, consuming system resources. Command Prompt can help disable unnecessary ones. Use the command “msconfig” to access the System Configuration utility, navigate to the “Startup” tab, and uncheck the programs you want to disable. Use the command “services.msc” to manage and turn off unwanted services.
+6) Checking and Repairing Disk Errors: Disk errors can contribute to a slow PC. Command Prompt provides commands to check and repair these errors. Enter “chkdsk /f /r” in Command Prompt, which will scan the disk for errors and attempt to fix them.
+7) Updating Drivers: Outdated or incompatible drivers can impact system performance. Command Prompt offers commands to update drivers automatically. Use the command “devmgmt.msc” to open the Device Manager, right-click on a device, select “Update driver,” and follow the on-screen instructions.
+8) Additional Troubleshooting Tips Using Command Prompt: Command Prompt provides additional tools to optimize PC performance. Use the “tasklist” command to view running processes and “taskkill” to terminate unwanted processes. The “netsh” command can reset network configurations, while the “dism” command turns Windows features on or off.
+
+Thank You All,Please Share if theses commands Boost Up your system or laptop.
